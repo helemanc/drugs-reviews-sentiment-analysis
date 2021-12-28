@@ -6,7 +6,7 @@ The aim of this project is to **compare different text representations** and **l
 
 The dataset used is the [Drug Reviews Dataset](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29).
 
-##Overview 
+## Overview 
 I understood and cleaned data by performing some Exploratory Data Analysis (EDA) and Text Preprocessing. 
 
 Since the dataset does not provide a sentiment target variable, I labelled the reviews using two different strategies: 
