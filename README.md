@@ -1,4 +1,4 @@
-#Drugs Reviews Sentiment Analysis 
+# Drugs Reviews Sentiment Analysis 
 Text Mining project realized as a part of the 	*Data Mining, Text Mining and Big Data Analytics* 
 exam  of the [Master's degree in Artificial Intelligence @ University of Bologna](https://corsi.unibo.it/2cycle/artificial-intelligence). 
 
