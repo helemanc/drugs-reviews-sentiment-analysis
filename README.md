@@ -47,9 +47,12 @@ the files to load during the execution; in particular:
 - ***X_train.p, X_test.p, Y_train.p, Y_test.p*** to skip the preparation part of the embedding matrix and data in the 
  "Dense Word Embedding" section and go directly to "Dense Word Embedding -> Load Input Data".
 
+If you have problems downloading the files, you can also find them in [this](https://drive.google.com/drive/folders/1w2Dw7jpOlvdV4gUDqPO63VXQBp_bhM-0?usp=sharing)
+Google Drive folder.
+
 ## Results
 In light of the work done I can conclude the following:
-- thanks to the analysis carried out in the "**Data Understanding**" section I was able to note that the dataset is very unbalanced since almost 70% of the votes have a value greater than 7. 
+- Thanks to the analysis carried out in the "**Data Understanding**" section I was able to note that the dataset is very unbalanced since almost 70% of the votes have a value greater than 7. 
 
     Indeed, if we analyze the classification reports we can see that the support value between the two classes is really 
     different (we will comment later on the classification report obtained from our best model).
@@ -65,10 +68,10 @@ In light of the work done I can conclude the following:
 - I can therefore conclude, with 95% of confidence that among the models tested **there is a better model than all** (`Model 2: Count Vectorizer + Logistic Regression`). Therefore, for what I believe to be the best model based on scientific evidence, I report the *classification report* below:
 
     ```
-                precision    recall  f1-score   support
+                   precision    recall  f1-score   support
 
-           0       0.91      0.86      0.88     21056
-           1       0.94      0.96      0.95     48939
+           0         0.91      0.86      0.88     21056
+           1         0.94      0.96      0.95     48939
 
   accuracy                             0.93     69995
   macro avg        0.92      0.91      0.92     69995
@@ -101,3 +104,4 @@ In light of the work done I can conclude the following:
 - It would be interesting to list the names of the drugs and remove them from the reviews since they are all names that are certainly not stemmed and that are certainly OOV in dense embeddings. 
 
 ## License 
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/helemanc/drugs-reviews-sentiment-analysis/blob/main/LICENSE) file for details.
